@@ -31,17 +31,25 @@ main{
     position: relative;
     height: 100vh;
     width: 100vw;
+
+    & h1{
+        color: var(--preto);
+    }
 }
 
 section#login{    
-    background-color: white;
     width: 300px;
     height: 500px;
-    border-radius: 20px;
 
     overflow: hidden;
 
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.651);
+    border-radius: 20px;
+    background-color: white;
+
+    transition: height .3s ease, width .3s ease;
+
+
 }
 
 div#imagem{
@@ -50,10 +58,15 @@ div#imagem{
     background-size: cover;
 
     height: 150px;
+
+    filter: grayscale(100%);
+    transition: all 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+section#login:hover div#imagem{
+    filter: grayscale(0%);
 }
 
 div#formulario{
     display: block;
     padding: 10px;
-
 }
