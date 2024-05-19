@@ -57,7 +57,7 @@ Grandes Telas: +1200px
         }
         & p{
             font-size: 1.2em;
-            margin: 20px;
+            margin: 10px;
         }
         
     }
@@ -66,8 +66,5 @@ Grandes Telas: +1200px
         background: transparent;
         background-image: linear-gradient(to right, var(--marrom-escuro), var(--marrom-claro) );
         margin: 10px 0px;
-    }
-    form > a.botao{
-        margin: 10px 0px 0px 0px;
     }
 }
