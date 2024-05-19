@@ -22,18 +22,17 @@
                 <form action="login.php" method="post" autocomplete="on">
 
                     <div class="campo">
-                        <span class="material-symbols-outlined">mail</span>
+                        <label for="ilogin"><span class="material-symbols-outlined">mail</span></label>
                         <input type="email"  id="ilogin" name="login" placeholder="Email" required autocomplete="email">
-                        <label for="ilogin">Login</label>
                     </div>
 
                     <div class="campo">
-                        <span class="material-symbols-outlined">lock</span>
+                        <label for="isenha"><span class="material-symbols-outlined">lock</span></label>
                         <input type="password" id="isenha" name="senha" placeholder="Senha" required autocomplete="current-password">
-                        <label for="isenha">Senha</label>
                     </div>
+
                     <input type="submit">
-                    <a href="esqueci.html">esqueci a Senha <span class="material-symbols-outlined">lock_reset</span></a>
+                    <a href="esqueci.html" class="botao">esqueci a Senha <span class="material-symbols-outlined">lock_reset</span></a>
                 </form>
                 
             </div>
