@@ -47,8 +47,8 @@ section#login{
     border-radius: 20px;
     background-color: white;
 
-    transition: height .3s ease, width .3s ease;
-
+    transition: height .3s ease, width .3s ;
+    transition-timing-function: ease;
 
 }
 
@@ -69,4 +69,12 @@ section#login:hover div#imagem{
 div#formulario{
     display: block;
     padding: 10px;
+
+    & h1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    & p{
+        font-size: 0.8em;
+    }
 }
